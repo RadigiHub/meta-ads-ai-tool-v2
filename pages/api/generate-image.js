@@ -18,7 +18,6 @@ export default async function handler(req, res){
         prompt,
         size: '1024x1024',
         n: 1,
-        response_format: 'b64_json'
       })
     })
     const data = await resp.json()
